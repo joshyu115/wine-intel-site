@@ -20,7 +20,7 @@
   <p>Last updated: November 5, 2026</p>
   <p>Wine Intel is a personal tool used by a single user (its operator).</p>
   <h2>What it accesses</h2>
-  <p>With the operator's authorization, Wine Intel uses the Google Drive API (drive.file scope). It can only see and manage files and folders that it creates itself in the operator's Google Drive. It cannot access any other files in the Drive.</p>
+  <p>With the operator's authorization, Wine Intel uses the Google Drive API (drive.file and drive.readonly scopes). It can read files in the operator's Google Drive, in read-only mode, to retrieve screenshots specified by the operator. It creates and edits only its own archive and export files, and it never modifies or deletes the operator's existing files.</p>
   <h2>What it stores</h2>
   <p>Exports and backups of the operator's own working notes, stored in the operator's own Google Drive folder and on the operator's own server.</p>
   <h2>What it does not do</h2>
